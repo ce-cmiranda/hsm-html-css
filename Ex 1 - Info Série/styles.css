@@ -1,0 +1,99 @@
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #8842d5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 2px solid white;
+}
+
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+/* A color changes when hovered over */
+li a:hover {
+    background-color: #7300ff;
+}
+
+.active {
+    background-color: #44157c;
+}
+
+.container {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* resize images */
+.container img {
+    width: 30%;
+    height: auto;
+    border-radius: 4px;
+}
+.series-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.series-name h2{
+    margin-bottom: 0;
+    padding: 0;
+}
+.series-name h5{
+    margin: 0;
+    padding: 0;
+    color: rgb(139, 127, 127);
+}
+
+.series-name p{
+    margin: 0;
+    padding: 5px;
+    color: rgb(139, 127, 127);
+    width: 50%;
+    text-align: justify;
+
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcoes p{
+    padding: 20px;
+    margin: 10px;
+    width: 60px;
+    background-color: rgb(139, 127, 127);
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+.opcoes p:hover{
+    background-color: rgb(119, 109, 109);
+    color: wheat;
+    text-decoration: underline; 
+
+}

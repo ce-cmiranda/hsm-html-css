@@ -1,0 +1,29 @@
+.elenco{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(252, 245, 244);
+    padding: 3px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.elenco:hover{
+    background-color: rgb(243, 215, 208);
+}
+
+.img-elenco{
+    width: 30%;
+    align-self: center;
+}
+
+.img-elenco img{
+    width: 80%;
+}
+.desc-elenco{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    padding-left: 10px;
+}
