@@ -13,7 +13,7 @@
     width: 25%;
 }
 .col-75{
-    width: 100%;
+    width: 75%;
 }
 
 textarea{
@@ -26,14 +26,14 @@ textarea{
     background-color: rgb(238, 135, 151);
     border: none;
     border-radius: 5px;
-    width: 10%;
+    width: 80px;
     height: 30px;
     transition: 0.3s;
 
 }
 .cancelar:hover{
     background-color: rgb(199, 92, 108);
-    width: 12%;
+    width: 88px;
     height: 32px;
     font-weight: bold;
 }
@@ -43,14 +43,14 @@ textarea{
     background-color: rgb(168, 238, 135);
     border: none;
     border-radius: 5px;
-    width: 10%;
+    width: 80px;
     height: 30px;
     transition: 0.3s;
 }
 
 .salvar:hover{
     background-color: rgb(124, 196, 92);
-    width: 12%;
+    width: 88px;
     height: 32px;
     font-weight: bold;
 }
